@@ -1,0 +1,20 @@
+[
+  {
+    "licensePlate": "ABC123",
+    "arrivalTime": "2024-11-04T07:43:57",
+    "onTime": true,
+    "location": "ENTERED"
+  },
+  {
+    "licensePlate": "XYZ789",
+    "arrivalTime": "2024-11-04T07:43:57",
+    "onTime": false,
+    "location": "EXITED"
+  },
+  {
+    "licensePlate": "LMN456",
+    "arrivalTime": "2024-11-04T07:43:57",
+    "onTime": true,
+    "location": "DOCK"
+  }
+]

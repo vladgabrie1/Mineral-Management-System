@@ -1,0 +1,11 @@
+[
+  {
+    "weight": 30.0,
+    "licensePlate": "TEST",
+    "deliveryTime": "2025-09-25T15:00:00",
+    "materialType": "SLAG",
+    "warehouseId": "550e8400-e29b-41d4-a716-446655440004",
+    "onTime": true,
+    "truckArrivalTime": "2025-09-25T15:00:00"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "WH5",
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "sellerId": "012f6507-7214-4b7a-9e28-efe5424245ae",
+    "materialType": "SLAG",
+    "fillPercentage": 56.00000000000001,
+    "stock": 280.0
+  },
+  {
+    "name": "WH18",
+    "id": "550e8400-e29b-41d4-a716-446655440017",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174003",
+    "materialType": "CEMENT",
+    "fillPercentage": 80.0,
+    "stock": 400.0
+  },
+  {
+    "name": "WH19",
+    "id": "550e8400-e29b-41d4-a716-446655440018",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174003",
+    "materialType": "PETCOKE",
+    "fillPercentage": 90.0,
+    "stock": 450.0
+  },
+  {
+    "name": "WH20",
+    "id": "550e8400-e29b-41d4-a716-446655440019",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174003",
+    "materialType": "SLAG",
+    "fillPercentage": 100.0,
+    "stock": 500.0
+  },
+  {
+    "name": "WH1",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "sellerId": "012f6507-7214-4b7a-9e28-efe5424245ae",
+    "materialType": "GYPSUM",
+    "fillPercentage": 10.0,
+    "stock": 50.0
+  },
+  {
+    "name": "WH2",
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "sellerId": "012f6507-7214-4b7a-9e28-efe5424245ae",
+    "materialType": "IRON_ORE",
+    "fillPercentage": 20.0,
+    "stock": 100.0
+  },
+  {
+    "name": "WH3",
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "sellerId": "012f6507-7214-4b7a-9e28-efe5424245ae",
+    "materialType": "CEMENT",
+    "fillPercentage": 30.0,
+    "stock": 150.0
+  },
+  {
+    "name": "WH4",
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "sellerId": "012f6507-7214-4b7a-9e28-efe5424245ae",
+    "materialType": "PETCOKE",
+    "fillPercentage": 40.0,
+    "stock": 200.0
+  },
+  {
+    "name": "WH5",
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "sellerId": "012f6507-7214-4b7a-9e28-efe5424245ae",
+    "materialType": "SLAG",
+    "fillPercentage": 50.0,
+    "stock": 250.0
+  },
+  {
+    "name": "WH6",
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174001",
+    "materialType": "GYPSUM",
+    "fillPercentage": 60.0,
+    "stock": 300.0
+  },
+  {
+    "name": "WH7",
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174001",
+    "materialType": "IRON_ORE",
+    "fillPercentage": 70.0,
+    "stock": 350.0
+  },
+  {
+    "name": "WH8",
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174001",
+    "materialType": "CEMENT",
+    "fillPercentage": 80.0,
+    "stock": 400.0
+  },
+  {
+    "name": "WH9",
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174001",
+    "materialType": "PETCOKE",
+    "fillPercentage": 90.0,
+    "stock": 450.0
+  },
+  {
+    "name": "WH10",
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174001",
+    "materialType": "SLAG",
+    "fillPercentage": 100.0,
+    "stock": 500.0
+  },
+  {
+    "name": "WH11",
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174002",
+    "materialType": "GYPSUM",
+    "fillPercentage": 2.0,
+    "stock": 10.0
+  },
+  {
+    "name": "WH12",
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174002",
+    "materialType": "IRON_ORE",
+    "fillPercentage": 4.0,
+    "stock": 20.0
+  },
+  {
+    "name": "WH13",
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174002",
+    "materialType": "CEMENT",
+    "fillPercentage": 6.0,
+    "stock": 30.0
+  },
+  {
+    "name": "WH14",
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174002",
+    "materialType": "PETCOKE",
+    "fillPercentage": 40.0,
+    "stock": 200.0
+  },
+  {
+    "name": "WH15",
+    "id": "550e8400-e29b-41d4-a716-446655440014",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174002",
+    "materialType": "SLAG",
+    "fillPercentage": 50.0,
+    "stock": 250.0
+  },
+  {
+    "name": "WH16",
+    "id": "550e8400-e29b-41d4-a716-446655440015",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174003",
+    "materialType": "GYPSUM",
+    "fillPercentage": 60.0,
+    "stock": 300.0
+  },
+  {
+    "name": "WH17",
+    "id": "550e8400-e29b-41d4-a716-446655440016",
+    "sellerId": "123e4567-e89b-12d3-a456-426614174003",
+    "materialType": "IRON_ORE",
+    "fillPercentage": 70.0,
+    "stock": 350.0
+  }
+]
