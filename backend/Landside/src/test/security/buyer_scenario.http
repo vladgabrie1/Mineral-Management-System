@@ -1,0 +1,29 @@
+### Get access token
+POST http://localhost:8180/realms/mineralflow/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=warehousing&client_secret=616cKolh8SmiZ4SpNDNyuRV6tjvBrwwe&username=seller&password=seller&grant_type=password&scope=openid
+
+> {% client.global.set("access_token", response.body.access_token)%}
+
+### Create Purchase Order
+POST http://localhost:8090/api/purchase-orders
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "date": "2024-11-01",
+  "customerNumber": "8f14e45f-ea62-4e8e-9a91-bc29a4a264f3",
+  "customerName": "John Doe",
+  "purchaseOrderLines": [
+    {
+      "weightInTons": 10.5,
+      "rawMaterial": "GYPSUM"
+    },
+    {
+      "weightInTons": 15.0,
+      "rawMaterial": "CEMENT"
+    }
+  ]
+}
+

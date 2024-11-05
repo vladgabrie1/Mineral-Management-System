@@ -1,0 +1,20 @@
+### Get access token
+POST http://localhost:8180/realms/mineralflow/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=warehousing&client_secret=616cKolh8SmiZ4SpNDNyuRV6tjvBrwwe&username=seller&password=seller&grant_type=password&scope=openid
+
+> {% client.global.set("access_token", response.body.access_token)%}
+
+### Test the get all trucks for today
+GET http://localhost:8090/api/trucks/live
+Authorization: Bearer {{access_token}}
+
+### Test to get all deliveries ( pdts ) for a day
+GET http://localhost:8090/api/pdt/by-date?date=2025-09-25
+Authorization: Bearer {{access_token}}
+
+### Get all warehouses
+GET http://localhost:8090/api/warehouses
+Authorization: Bearer {{access_token}}
+

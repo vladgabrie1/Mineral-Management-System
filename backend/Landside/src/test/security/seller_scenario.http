@@ -1,0 +1,45 @@
+@licensePlate = TEST
+@sellerId = 012f6507-7214-4b7a-9e28-efe5424245ae
+
+
+### Get access token
+POST http://localhost:8180/realms/mineralflow/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=warehousing&client_secret=616cKolh8SmiZ4SpNDNyuRV6tjvBrwwe&username=seller&password=seller&grant_type=password&scope=openid
+
+> {% client.global.set("access_token", response.body.access_token)%}
+
+
+### Test endpoint to create an appointment
+POST http://localhost:8090/api/appointments
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "date": "2025-09-25T15:00:00",
+  "licensePlate": "{{licensePlate}}",
+  "materialType": "SLAG"
+}
+
+### Truck Entry Correct hour
+GET http://localhost:8090/api/truck/entry/{{licensePlate}}/2025-09-25T15:00:00
+Authorization: Bearer {{access_token}}
+
+### Truck Entry Wrong hour
+GET http://localhost:8090/api/truck/entry/XYZ1234/2025-09-25T16:30:00
+Authorization: Bearer {{access_token}}
+
+
+### Entry weighing
+GET http://localhost:8090/api/weighed/truck/entry/{{licensePlate}}/1/50/2025-09-25T15:00:00
+Authorization: Bearer {{access_token}}
+
+### Test docking use case
+GET http://localhost:8090/api/truck/dock/{{licensePlate}}/2025-09-25T15:00:00
+Authorization: Bearer {{access_token}}
+
+### Test the weighing when exit
+GET http://localhost:8090/api/weighed/truck/exit/{{licensePlate}}/1/20/2025-09-25T15:00:00
+Authorization: Bearer {{access_token}}
+

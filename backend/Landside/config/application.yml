@@ -1,0 +1,24 @@
+server:
+  port: ${PORT:8092}
+  servlet:
+    context-path: /land
+
+
+spring:
+  config:
+    additional-location: ${SPRING_CONFIG_ADDITIONAL_LOCATION}
+  rabbitmq:
+    listener:
+      simple:
+        auto-startup=false:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/app_db"
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8180/realms/mineralflow/protocol/openid-connect/certs
+          issuer-uri: http://localhost:8180/realms/mineralflow
